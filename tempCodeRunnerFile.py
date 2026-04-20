@@ -1,14 +1,7 @@
-def strStr(haystack, needle):
-    m = len(haystack)
-    n = len(needle)
-    if n == 0:
-        return 0
-    for i in range(m - n + 1):
-        if haystack[i:i + n] == needle:
-            return i
-    return -1
-haystack = "Pakistan"
-needle = "stan"
-print(strStr(haystack, needle))
 
-
+# def twoSum(nums , target):
+#     for i in range(len(nums)):
+#         for j in range(i + 1 , len(nums)):
+#             if nums[i] + nums[j] == target:
+#              return[i,j]
+            
